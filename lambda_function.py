@@ -7,7 +7,7 @@ s3 = boto3.client('s3')
 def lambda_handler(event, context):
     timestamp = datetime.now().isoformat()
     s3.put_object(
-        Bucket='event-pipeline-bucket-2c5bf141',
+        Bucket='event-pipeline-aravind-2025',
         Key=f"events/{timestamp}.json",
         Body=json.dumps(event)
     )
