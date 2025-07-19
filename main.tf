@@ -3,11 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "data_bucket" {
-  bucket = "event-pipeline-bucket-${random_id.bucket_id.hex}"
-}
-
-resource "random_id" "bucket_id" {
-  byte_length = 4
+  bucket = "event-pipeline-aravind-2025"  # 👈 Choose a unique name
 }
 
 resource "aws_iam_role" "lambda_exec" {
