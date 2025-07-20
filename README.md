@@ -21,28 +21,24 @@ This project sets up an event-driven data pipeline on AWS using:
 - `variables.tf` – Optional variables
 - `.github/workflows/` – GitHub Actions config
 
-## Deployment Steps
+ ## Deployment Steps
 
-```bash
-# Deploy infrastructure
-terraform init
-terraform apply
+ ```bash
+ # Deploy infrastructure
+    terraform init
+    terraform apply
 
-## Cleanup (Optional)
+    ## Cleanup (Optional)
 
-To remove all AWS resources created by this project:
+    To remove all AWS resources created by this project:
 
-```bash
-terraform destroy -auto-approve
-⚠️ WARNING: This will delete the Lambda function, S3 bucket, IAM roles, and all data.
+    ```bash
+    terraform destroy -auto-approve
+    ⚠️ WARNING: This will delete the Lambda function, S3 bucket, IAM roles, and all data.
 
-yaml
+    
 
----
-
-Let me know if you'd like help customizing your README for a **college project**, **resume portfolio**, or **job demo**.
-
-Author
+#Author
 👤 Koppula Aravind
 
     GitHub: @Aravind-hub7
