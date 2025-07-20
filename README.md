@@ -38,10 +38,4 @@ This project sets up an event-driven data pipeline on AWS using:
 
     
 
-#Author
-👤 Koppula Aravind
-
-    GitHub: @Aravind-hub7
-
-    LinkedIn: (Add your LinkedIn if you want)
 
